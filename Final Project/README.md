@@ -1,4 +1,4 @@
-## USAGE GUIDE:
+# USAGE GUIDE:
 
 # Pull the images from docker
 docker pull arunk2398/admin-app
