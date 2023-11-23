@@ -3,7 +3,7 @@ services:
 
     admin:
         container_name: admin-app
-        image: arunk2398/adminapplication
+        image: arunk2398/admin-app
         restart: always
         ports:
           - "9000:9000"
@@ -12,7 +12,7 @@ services:
 
     customer:
         container_name: customer-app
-        image: arunk2398/customerapplication
+        image: arunk2398/customer-app
         restart: always
         ports:
           - "4000:4000"
